@@ -1,0 +1,39 @@
+# Игнорируем файлы .pyc, кэш Python и временные файлы
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Игнорируем виртуальное окружение Python
+venv/
+env/
+.venv/
+
+# Игнорируем файлы настроек IDE/редакторов
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Игнорируем логи и результаты тестов
+*.log
+*.sqlite3
+
+# Игнорируем файлы зависимостей, но не сам requirements.txt
+*.egg-info/
+build/
+dist/
+pip-wheel-metadata/
+
+# Игнорируем файлы данных (например, .env, дампы БД)
+.env
+*.env
+*.db
+*.sql
+*.csv
+*.xlsx
+
+# Игнорируем системные файлы (Mac)
+.DS_Store
+
+# Игнорируем Jupyter Notebook checkpoint-ы
+.ipynb_checkpoints/
